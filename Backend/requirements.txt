@@ -1,0 +1,17 @@
+django==4.2
+django-environ
+django-cors-headers
+djangorestframework
+
+argon2-cffi
+djoser
+djangorestframework-simplejwt
+PyJWT
+social-auth-app-django
+social-auth-core
+
+Pillow
+django-storages
+django-ckeditor
+psycopg2
+python-slugify
