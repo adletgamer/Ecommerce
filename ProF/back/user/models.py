@@ -24,8 +24,6 @@ class UserAccountManager(BaseUserManager):
         user.is_staff = True
         user.save()
 
-        
-
         return user
 
 

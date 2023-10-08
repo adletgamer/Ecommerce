@@ -247,3 +247,11 @@ AUTH_USER_MODEL='user.UserAccount'
 EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+import cloudinary
+          
+cloudinary.config( 
+  cloud_name = "drg6ls3cv", 
+  api_key = "434377913435545", 
+  api_secret = "Knpzgi7k87hvvj-Pl1QdZuP_NB0" 
+)

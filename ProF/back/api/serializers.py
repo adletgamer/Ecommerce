@@ -22,3 +22,8 @@ class ProductSerializer(serializers.ModelSerializer):
             'date_created',
             'get_thumbnail'
         ]
+
+        def to_representation(self, instance):
+            representation = super().to_representation(instance)
+            representation['photo'] = instance.photo.url
+            return representation

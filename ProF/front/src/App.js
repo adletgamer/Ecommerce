@@ -32,7 +32,6 @@ function App() {
           <Route path="*" element={<Error404/>}/>
 
           <Route exact path='/' element={<Home/>}/>
-
           <Route exact path='/cart' element={<Cart/>}/>
           <Route exact path='/checkout' element={<Checkout/>}/>
           

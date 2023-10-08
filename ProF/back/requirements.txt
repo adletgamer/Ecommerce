@@ -1,4 +1,6 @@
 Django==3.2
+pyJWT==2.1.0
+cloudinary
 django-cors-headers
 django-environ
 djangorestframework
@@ -13,7 +15,6 @@ argon2-cffi
 django-environ
 stripe
 braintree
-pyJWT==2.1.0
 boto3
 django-storages
 markdown
