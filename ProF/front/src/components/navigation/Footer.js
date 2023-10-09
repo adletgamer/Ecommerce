@@ -207,7 +207,7 @@ const navigation = {
               ))}
             </div>
             <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-              &copy; 2020 Workflow, Inc. All rights reserved.
+              &copy; 2023 by Eleazar and Alejandra, All rights reserved.
             </p>
           </div>
         </div>
